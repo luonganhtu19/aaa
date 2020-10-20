@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jocker</title>
+    <style>
+        .cards{
+            width: 50px;
+        }
+        span{
+            text-align: right;
+            color: red;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+<img src="cards/c159b4738dae9c9d8d6417228024de8d.jpg" height="210" width="164"/>
+<br>
+<input type="button" onclick="display()" value="Take card">
+<input type="button" onclick="checkWin()" value="Check point">
+<fieldset >
+    <legend>Player 1</legend>
+    <p > Car of player 1 <span id="point1"></span> </p>
+    <p id ="cards1">
+<!--        <img class="cards" src="cards/1C.svg" alt="">-->
+    </p>
+</fieldset>
+<fieldset>
+    <legend>Player 2</legend>
+    <p > Car of player 2<span ip="point2"></span> </p>
+    <p id ="cards2"></p>
+</fieldset>
+</body>
+<script src="check.js"></script>
+</html>
